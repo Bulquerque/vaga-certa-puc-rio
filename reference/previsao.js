@@ -66,7 +66,6 @@ function fundir(previsao, reportes) {
   const out = Object.assign({}, previsao, { fundido: true, n_reportes: reportes.length,
                                             peso_comunidade: +w.toFixed(2) });
   if (previsao.modal === 'carro') {
-    const cap = 1;  // trabalhamos em pontos percentuais
     out.ocupacao_pct = {
       piso: +((1 - w) * previsao.ocupacao_pct.piso + w * media).toFixed(1),
       teto: +((1 - w) * previsao.ocupacao_pct.teto + w * media).toFixed(1)
