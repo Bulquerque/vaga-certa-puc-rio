@@ -8,6 +8,7 @@ MVP para o Impact Lab SIEng 2026: previsão transparente de ocupação do estaci
 - Caronas — busca independente por bairro, dia, chegada, tolerância e quantidade de passageiros; matching explicável; ofertas sintéticas de demonstração; vagas; ponto público; desvio; recorrência; cálculo de custo; solicitação pendente demonstrativa; procura de carona; remoção de ofertas locais; validação de formulário; estado vazio e aviso de risco do estacionamento.
 - Oferta de vaga — publicação local de rota única ou semanal, prévia de custo, política de divisão e ponto de encontro.
 - Persistência — ofertas e reservas de demonstração são salvas no `localStorage` deste navegador para que o fluxo sobreviva a um refresh.
+- Relato comunitário — usuários podem informar lotação percebida, tamanho da fila e observação; o resumo considera relatos recentes por até 90 minutos e permanece separado da previsão histórica.
 - `reference/baseline.json` — prior agregado derivado dos dados anonimizados do case.
 - `reference/motor.py` e `reference/previsao.js` — motor original do ZIP, preservado para rastreabilidade.
 - `reference/offline-demo.html` — protótipo offline original.
